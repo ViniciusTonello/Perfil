@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Koulen&display=swap');
+:root{
+    --cor-fundo:#C7FFED;
+    --cor-titulo: #008F8C;
+    --cor-paragrafo: #015958;
+    --cor-link: #023535;
+    --cor-fonte: #023535;
+    --cor-subtitulo: #005C53;
+    --fonte: Kanit, Verdana
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--cor-fonte) var(--fonte);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+}
+
+h2 {
+    color: var(--cor-subtitulo);
+}
+
+p {
+    color: var(--cor-paragrafo);
+    font-family: var(--fonte);
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+ul li a {
+    color: var(--cor-link);
+    font-size: 25px;
+}
+
+div.imagem{
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #000000;
+}
+
+
